@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, scale: 0.5, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              src="/goran.png"
+              src="goran.png"
               alt="Goran Jovanović"
               className="absolute -bottom-6 -left-4 lg:-bottom-12 lg:-left-12 w-32 lg:w-48 h-auto rounded-xl shadow-2xl border-4 border-white dark:border-slate-800 rotate-3 hover:rotate-0 transition-transform duration-300"
             />

@@ -12,7 +12,7 @@
   </p>
 
   <p align="center">
-    <a href="https://gjovanovicst.github.io/"><strong>🌐 Live Demo</strong></a>
+    <a href="https://gjovanovicst.github.io/portfolio"><strong>🌐 Live Demo</strong></a>
     ·
     <a href="https://github.com/gjovanovicst"><strong>🐱 GitHub</strong></a>
     ·
