@@ -112,9 +112,9 @@ const Hero: React.FC = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="hidden lg:mt-0 lg:col-span-5 lg:flex relative"
+          className="mt-10 lg:mt-0 lg:col-span-5 flex relative"
         >
-          <div className="relative w-full h-96">
+          <div className="relative w-full h-64 lg:h-96">
             <img
               src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80"
               alt="Coding setup"
@@ -126,7 +126,7 @@ const Hero: React.FC = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
               src="/goran.png"
               alt="Goran Jovanović"
-              className="absolute -bottom-12 -left-12 w-48 h-auto rounded-xl shadow-2xl border-4 border-white dark:border-slate-800 rotate-3 hover:rotate-0 transition-transform duration-300"
+              className="absolute -bottom-6 -left-4 lg:-bottom-12 lg:-left-12 w-32 lg:w-48 h-auto rounded-xl shadow-2xl border-4 border-white dark:border-slate-800 rotate-3 hover:rotate-0 transition-transform duration-300"
             />
           </div>
         </motion.div>
