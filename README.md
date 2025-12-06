@@ -1,73 +1,99 @@
-# React + TypeScript + Vite
+<div align="center">
+  <a href="https://gjovanovicst.github.io/">
+    <img src="public/goran.png" alt="Goran Jovanović" width="160" />
+  </a>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  <h1 align="center">Goran Jovanović</h1>
+  <h3 align="center">Senior Software Developer Portfolio</h3>
 
-Currently, two official plugins are available:
+  <p align="center">
+    A modern, high-performance portfolio website showcasing expertise in<br />
+    <strong>React 19, TypeScript, and Cloud Architectures</strong>.
+  </p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  <p align="center">
+    <a href="https://gjovanovicst.github.io/"><strong>🌐 Live Demo</strong></a>
+    ·
+    <a href="https://github.com/gjovanovicst"><strong>🐱 GitHub</strong></a>
+    ·
+    <a href="https://www.linkedin.com/in/goran-jovanovi%C4%87-11a51456/"><strong>💼 LinkedIn</strong></a>
+  </p>
+</div>
 
-## React Compiler
+<br />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework:** [React 19](https://react.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Heroicons](https://heroicons.com/) / SVG
+- **Deployment:** GitHub Pages
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ✨ Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Responsive Design:** Fully responsive layout that works seamlessly on mobile, tablet, and desktop devices.
+- **Dark Mode Support:** Built-in dark mode support using Tailwind CSS.
+- **Smooth Animations:** Engaging scroll and entrance animations powered by Framer Motion.
+- **Interactive UI:** Custom components like Spotlight Cards and Typewriter effects.
+- **SEO Optimized:** Includes proper meta tags, Open Graph data, and sitemap for better search engine visibility.
+- **Performance:** Optimized build with Vite for fast loading times.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Installation & Local Development
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/gjovanovicst/landing.git
+    cd landing
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4.  **Build for production:**
+
+    ```bash
+    npm run build
+    ```
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/         # Static assets
+├── components/     # Reusable React components
+│   ├── ui/         # UI specific components (e.g., SpotlightCard)
+│   ├── Hero.tsx    # Hero section with typewriter effect
+│   ├── Navbar.tsx  # Responsive navigation bar
+│   ├── Projects.tsx# Projects showcase
+│   └── ...
+├── App.tsx         # Main application component
+└── main.tsx        # Entry point
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📄 License
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project is open source and available under the [MIT License](LICENSE).
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 👤 Author
+
+**Goran Jovanović**
+
+- **GitHub:** [@gjovanovicst](https://github.com/gjovanovicst)
+- **LinkedIn:** [Goran Jovanović](https://www.linkedin.com/in/goran-jovanovi%C4%87-11a51456/)
+
+---
+
+*Built with ❤️ using React & Tailwind CSS*
